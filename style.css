@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #FFE2B0;
+}
+header{
+    text-align: center;
+    /* действует на то, что внутри, а не на сам тег header */
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 15px;
+}
+ul{
+    text-align: center;
+    list-style-type: none;
+    padding: 0px;
+    /* тег убирает точки в списке */
+}
+li{
+    display: inline;
+    margin-right: 100px;
+}
+li:last-child{
+    margin-right: 0px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    /* тег убирает подчеркивания в списке */
+    font-size: 18px;
+}
+nav{
+    margin-bottom: 20px;
+}
+.section-about{
+    height: 640px;
+    background: url(../img/01-Background_picture.jpg) center/cover no-repeat;
+/* cover делает так, чтобы изображение при растягивании экрана растянулось нормально */
+    position: relative;
+    margin-bottom: 20px;
+}
+.section-about_block{
+    width: 420px;
+    height: 190px;
+    background: linear-gradient(180deg,rgba(244,213,178,0.8) 0%, rgba(234,156,65,0.8) 100%);
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    padding-top: 15px;
+}
+.section-about_border{
+    height: 160px;
+    width: 390px;
+    border: 1px solid black;
+    margin: 0px auto;
+    padding: 17px 0 0 28px;
+}
+.section-about_title{
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 9px;
+    font-family: 'Philosopher', sans-serif;
+}
+.section-about_text{
+    font-size: 12px;
+    margin: 0;
+}
+.section-description{
+    margin-bottom: 20px;
+}
+.section-description_iconbox{
+    text-align: center;
+}
+
+.section-description_iconbox img{
+    margin-right: 76px;
+}
+.section-description_iconbox img:last-child{
+    margin-right: 0px;
+}
+.section-description_title{
+    font-size: 96px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Philosopher', sans-serif;
+}
+.red{
+    color: #F15B40;
+}
+.section-description_titlebox_text{
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+    width: 1000px;
+
+}
+.section_map_title{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Philosopher', sans-serif;
+}
+iframe{
+    display: block;
+    margin: 0 auto;
+}
+.section_map{
+    margin-bottom: 20px;
+}
+hr{
+    border: none;
+    border-top: 1px solid #9999;
+    width: 1024px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+footer{
+    height: 80px;
+}

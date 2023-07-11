@@ -37,7 +37,7 @@ nav{
 }
 .section-about{
     height: 640px;
-    background: url(../img/01-Background_picture.jpg) center/cover no-repeat;
+    background: url(01-Background_picture.jpg) center/cover no-repeat;
 /* cover делает так, чтобы изображение при растягивании экрана растянулось нормально */
     position: relative;
     margin-bottom: 20px;
